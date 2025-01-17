@@ -22,7 +22,7 @@ from rest_framework.routers import  DefaultRouter
 from app.views import Task_view
 
 router=DefaultRouter()
-router.register(r'task',Task_view,basename='task')
+router.register('task',Task_view,basename='task')
 
 
 urlpatterns = [
